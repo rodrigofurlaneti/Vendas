@@ -13,37 +13,47 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Inbox',
-      url: '/folder/Inbox',
-      icon: 'mail'
+      title: 'Cargo',
+      url: '/folder/Cargo'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
-      icon: 'paper-plane'
+      title: 'Categoria',
+      url: '/folder/Categoria'
     },
     {
-      title: 'Favorites',
-      url: '/folder/Favorites',
-      icon: 'heart'
+      title: 'Cliente',
+      url: '/folder/Cliente'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
-      icon: 'archive'
+      title: 'Comanda',
+      url: '/folder/Comanda'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
-      icon: 'trash'
+      title: 'Pagamento',
+      url: '/folder/Pagamento'
     },
     {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
+      title: 'Pedido',
+      url: '/folder/Pedido'
+    },
+    {
+      title: 'Produto',
+      url: '/folder/Produto'
+    },
+    {
+      title: 'Usuário',
+      url: '/folder/Usuario'
+    },
+    {
+      title: 'Venda',
+      url: '/folder/Venda'
+    },
+    {
+      title: 'Venda Produto',
+      url: '/folder/VendaProduto'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  //public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,
