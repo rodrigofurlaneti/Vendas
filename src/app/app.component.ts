@@ -51,6 +51,10 @@ export class AppComponent implements OnInit {
     {
       title: 'Venda Produto',
       url: '/folder/VendaProduto'
+    },
+    {
+      title: 'Venda Produto',
+      url: '/folder/VendaProduto'
     }
   ];
   //public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
